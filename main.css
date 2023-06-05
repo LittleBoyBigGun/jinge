@@ -1,0 +1,57 @@
+ * {
+  margin:0px;
+  padding:0px;
+  font-size:20px;
+ }
+
+ .showpannel {
+  margin:0 auto;
+  border: 1px solid red;
+  line-height: 5em;
+  width:15em;
+  height:5em;
+  border-radius:30px;
+  padding: 10px;
+ }
+ .input {
+  margin:auto;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 30px;
+  width:15em;
+  height:5em;
+  line-height: 5em;
+  margin-bottom: 0.5em;
+ }
+
+ input {
+  width:5em;
+ }
+	/* 小屏幕手机端 */
+  @media (min-width: 0px) and (max-width:768px) {
+    body{
+      width: 400px;
+      height:fit-content;
+      font-size:1em;
+    }
+  }
+  
+  /* 中等屏幕（桌面显示器，大于等于 992px） */
+  @media (min-width: 768px) and (max-width:992px){
+    body{
+      width:700px;
+      height: fit-content;
+      font-size:2em;
+      text-align: center;
+    }
+  }
+  
+  /* 大屏幕（大桌面显示器，大于等于 1200px） */
+  @media (min-width: 992px) {
+    body{
+      width: 900px;
+      height: fit-content;
+      font-size:3em;
+      text-align: center;
+    }
+  }
