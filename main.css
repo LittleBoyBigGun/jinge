@@ -14,15 +14,14 @@
   padding: 10px;
  }
  .input {
-  margin:auto;
+  margin:0 auto;
   padding: 10px;
   border: 1px solid red;
   border-radius: 30px;
   width:15em;
   height:5em;
   line-height: 5em;
-  margin-bottom: 0.5em;
-  margin-top:0.5em;
+  margin-top:1em;
  }
 
  input {
